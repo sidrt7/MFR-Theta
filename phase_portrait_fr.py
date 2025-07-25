@@ -11,6 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import quad
 from scipy.integrate import odeint
+import matplotlib.pyplot as plt
 import math
 
 t = np.linspace(0, 10, 1000)  # integrate from 0 to 10 with 1000 steps
@@ -116,11 +117,6 @@ x0y0 = np.array([x0, y0])
 plt.show()
 
 """Trajectories"""
-
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.integrate import quad
-import math
 
 t = np.linspace(0, 100, 10000)  # integrate from 0 to 10 with 1000 steps
 
@@ -236,11 +232,6 @@ plt.plot(x[:, 0], x[:, 1], color='green')
 
 plt.show()
 
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.integrate import quad
-import math
-
 t = np.linspace(0, 100, 10000)  # integrate from 0 to 10 with 1000 steps
 
 # Define the parameters
@@ -354,11 +345,6 @@ x = np.array(x)
 plt.plot(x[:, 0], x[:, 1], color='green')
 plt.show()
 
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.integrate import quad
-import math
-
 t = np.linspace(0, 100, 10000)  # integrate from 0 to 10 with 1000 steps
 
 # Define the parameters
@@ -471,11 +457,6 @@ for i in range(len(t)-1):
 x = np.array(x)
 plt.plot(x[:, 0], x[:, 1], color='green')
 plt.show()
-
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.integrate import quad
-import math
 
 t = np.linspace(0, 100, 10000)  # integrate from 0 to 10 with 1000 steps
 
